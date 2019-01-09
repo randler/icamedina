@@ -225,6 +225,7 @@ function twentyseventeen_setup() {
 }
 add_action( 'after_setup_theme', 'twentyseventeen_setup' );
 
+
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
  *
@@ -609,3 +610,5 @@ require get_parent_theme_file_path( '/inc/customizer.php' );
  * SVG icons functions and filters.
  */
 require get_parent_theme_file_path( '/inc/icon-functions.php' );
+
+
