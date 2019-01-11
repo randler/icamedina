@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/5.0.2" created="2019-01-09 17:22" -->
+<!-- generator="WordPress/5.0.2" created="2019-01-11 01:53" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>ICA Medina Produções</title>
 	<link>http://icamedina/wordpress</link>
 	<description>Inovação, Criatividade e Arte</description>
-	<pubDate>Wed, 09 Jan 2019 17:22:48 +0000</pubDate>
+	<pubDate>Fri, 11 Jan 2019 01:53:12 +0000</pubDate>
 	<language>pt-BR</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://icamedina/wordpress</wp:base_site_url>
@@ -1219,6 +1219,26 @@
 	border-bottom: 0px;
 	border-top: 0px;
 }
+.site-main .post{
+	overflow: hidden;
+  position: relative;
+  max-height: 310px;
+  text-align: justify;
+}
+.post:before {
+	content: 'Continuar Lendo...';
+	font-size: 16px;
+	font-weight: bold;
+	color: #636363;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(194, 194, 194, 0.7);
+	padding-top: 4px;
+	padding-left: 42%;
+	height: 30px;
+	width: 100%
+}
 h2.widget-title {
 	font-size: 1.3rem !important;
 	margin-bottom: 0;
@@ -1235,6 +1255,20 @@ h2.widget-title {
 .site-info {
 	display:none;
 	margin: 0;
+}
+.post {
+	margin-bottom: 10px
+}
+.entry-meta .entry-date, .entry-meta .post-edit-link {
+	position: absolute;
+  top: -115px;
+  right: -399px;
+  left: 5px;
+}
+.entry-meta .post-edit-link {
+	left: 200px;
+  position: absolute;
+	width: 60px;
 }
 
 .blog:not(.has-sidebar) #primary article, .archive:not(.page-one-column):not(.has-sidebar) #primary article, .search:not(.has-sidebar) #primary article, .error404:not(.has-sidebar) #primary .page-content, .error404.has-sidebar #primary .page-content, body.page-two-column:not(.archive) #primary .entry-content, body.page-two-column #comments {
@@ -2613,13 +2647,20 @@ Como um novo usuário WordPress, vá ao seu <a href="http://icamedina/wordpress/
 		<dc:creator><![CDATA[medina]]></dc:creator>
 		<guid isPermaLink="false">http://icamedina/wordpress/?p=1</guid>
 		<description></description>
-		<content:encoded><![CDATA[Bem-vindo ao WordPress. Esse é o seu primeiro post. Edite-o ou exclua-o, e então comece a escrever!]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<content:encoded><![CDATA[<img class="size-medium wp-image-126 alignleft" src="http://icamedina/wordpress/wp-content/uploads/2018/12/57-300x233.jpg" alt="" width="300" height="233" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin finibus convallis justo, in congue turpis consequat vel. Morbi elementum sapien non elit dignissim, a gravida leo venenatis. Maecenas vitae quam mi. Vestibulum eget viverra sapien. Mauris ut lorem leo. Nunc ante risus, accumsan in purus vel, faucibus finibus ligula. Integer ultrices odio felis, in facilisis neque sagittis et. Integer a dolor eleifend, auctor velit nec, commodo eros. Proin quis dictum quam. Aenean in ex in lorem ultrices auctor. Curabitur vel nisl dapibus, aliquam leo sit amet, porttitor arcu. Mauris pharetra odio sagittis augue pretium, id volutpat purus semper. Vestibulum eleifend dolor non metus ornare, id interdum lacus luctus.
+
+<img class="size-medium wp-image-133 alignright" src="http://icamedina/wordpress/wp-content/uploads/2018/12/88--300x255.jpg" alt="" width="300" height="255" />
+
+Suspendisse aliquam quam id lacus pretium, sit amet hendrerit ipsum congue. Nunc imperdiet pellentesque mauris eu pulvinar. Integer consectetur dignissim enim a suscipit. In hac habitasse platea dictumst. Etiam hendrerit orci eget leo cursus, a bibendum sapien vulputate. Fusce pulvinar ante ac condimentum gravida. Nullam laoreet risus et diam interdum, id semper justo elementum. Donec placerat tempor nulla, quis blandit nunc porta id. Mauris fringilla magna nec fermentum tincidunt. Nullam mattis, metus sed suscipit sodales, justo augue commodo nibh, ut tempus est nunc vel ex. Nulla vitae leo eros. Fusce faucibus aliquam lacus, id lacinia nunc.
+
+<img class=" wp-image-116 alignleft" src="http://icamedina/wordpress/wp-content/uploads/2018/12/05-300x227.jpg" alt="" width="273" height="207" />Duis blandit eu arcu lobortis egestas. Pellentesque et dapibus turpis, a condimentum nunc. Etiam tempus, ligula vestibulum feugiat feugiat, ante magna rhoncus neque, eget ultricies lorem elit vel purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst. Donec at nunc dolor. Vivamus hendrerit mi erat, et porttitor mauris placerat quis. Nullam varius luctus tortor, sed porttitor nunc. Suspendisse sit amet elementum augue. Donec elit mauris, condimentum in molestie vel, varius quis mi. Nulla rhoncus augue porta tincidunt posuere. Nulla nec felis non erat bibendum vulputate. Integer pellentesque, felis ac interdum posuere, libero ligula faucibus nunc, quis mattis sem lorem vel urna. Fusce porttitor enim eros, vel ultrices purus elementum elementum. Quisque molestie porta massa ut tempor.
+<p style="text-align: left;">Duis tempor vulputate erat, id gravida lectus sodales a. Cras non leo id arcu tincidunt maximus ut id quam. Pellentesque blandit, mi a lacinia tincidunt, eros velit dictum turpis, ut mollis enim dolor sit amet elit. Fusce eget mi posuere, aliquet nulla eu, lobortis risus. Nam neque enim, bibendum eu metus vitae, consequat iaculis dolor. Donec pharetra eget sapien id condimentum. In nisi purus, commodo ac pulvinar quis, viverra vitae orci. Phasellus quis malesuada nisl. Integer pulvinar efficitur egestas. Vivamus vitae enim augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean odio ligula, lacinia nec egestas ut, fermentum eget ligula. Etiam molestie ultricies tincidunt. Donec mollis quam sapien, non volutpat risus fermentum sed. Etiam bibendum feugiat est, eget cursus libero luctus in</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin finibus convallis justo, in congue turpis consequat vel. Morbi elementum sapien non elit dignissim, a gravida leo venenatis. Maecenas vitae quam mi. Vestibulum eget viverra sapien. Mauris ut lorem leo. Nunc ante risus, accumsan in purus vel, faucibus finibus ligula. Integer ultrices odio felis, in facilisis neque sagittis et. Integer a dolor eleifend, auctor velit nec, commodo eros. Proin quis d]]></excerpt:encoded>
 		<wp:post_id>1</wp:post_id>
 		<wp:post_date><![CDATA[2018-12-24 13:54:36]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2018-12-24 15:54:36]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[ola-mundo]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
@@ -2628,6 +2669,10 @@ Como um novo usuário WordPress, vá ao seu <a href="http://icamedina/wordpress/
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="category" nicename="sem-categoria"><![CDATA[Sem categoria]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
 		<wp:comment>
 			<wp:comment_id>1</wp:comment_id>
 			<wp:comment_author><![CDATA[Um comentarista do WordPress]]></wp:comment_author>
@@ -3234,6 +3279,59 @@ Avatares de comentaristas vêm a partir do <a href="https://gravatar.com">Gravat
 		<wp:is_sticky>0</wp:is_sticky>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Teste de Post 2</title>
+		<link>http://icamedina/wordpress/index.php/2019/01/10/teste-de-post-2/</link>
+		<pubDate>Thu, 10 Jan 2019 21:44:46 +0000</pubDate>
+		<dc:creator><![CDATA[medina]]></dc:creator>
+		<guid isPermaLink="false">http://icamedina/wordpress/?p=202</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed nisi vehicula eros volutpat fermentum at id augue. Etiam sit amet tempor erat. Pellentesque ut semper arcu. Curabitur vestibulum ac libero in venenatis. Curabitur ornare, orci in dictum ullamcorper, lorem dui dignissim leo, at ornare metus odio et nulla. Nullam viverra cursus enim, ac interdum orci auctor ut. Quisque cursus mi sed mauris feugiat volutpat. Vestibulum tempus nibh ipsum, et molestie lectus condimentum et. Vestibulum lacinia posuere augue nec semper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur quis quam eu eros venenatis scelerisque. Suspendisse sollicitudin risus vitae massa vehicula, ut dignissim felis vulputate. Aliquam vulputate bibendum nunc, in molestie mi tempus sagittis. Donec aliquam venenatis laoreet. Proin consequat, tortor vel hendrerit mattis, nibh sapien facilisis massa, sit amet consectetur urna ante ac nisl.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Vestibulum placerat nunc non dolor rhoncus, a elementum lacus venenatis. Aenean pulvinar lectus arcu, sed elementum dui facilisis ut. Phasellus euismod orci lorem, id tristique sapien viverra sed. Nulla facilisi. In hac habitasse platea dictumst. Duis vitae aliquam dui. Nullam sit amet lectus sit amet urna bibendum ullamcorper nec condimentum lacus. Morbi at sem auctor, imperdiet nisi ut, mattis lorem.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Proin risus leo, consectetur sit amet commodo non, iaculis quis leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur efficitur, tortor in commodo cursus, mauris neque imperdiet leo, ac lacinia tortor justo quis libero. Integer sed augue in odio posuere tempus vel fringilla velit. Nunc ac porta velit. Vivamus diam ligula, dictum cursus nibh vel, euismod maximus tortor. Aenean blandit ipsum sem, at congue elit pellentesque sed. Proin sed velit non tellus ultricies gravida. Duis eget mattis ante. Vestibulum volutpat, enim eget gravida pulvinar, sapien dolor varius urna, quis semper arcu metus at sem. Morbi ut turpis bibendum arcu accumsan euismod sed ac dolor. Mauris erat nisi, accumsan sit amet ultrices et, cursus fringilla ipsum. Proin et aliquam nulla. Maecenas eu magna auctor, luctus ex a, iaculis diam.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Maecenas quis rhoncus ligula. Duis sed ante eget velit imperdiet rhoncus. Vestibulum viverra lorem orci, nec lacinia lorem fringilla at. Nunc tincidunt vel felis non finibus. Nullam at lacus varius, tincidunt ex ut, tristique nulla. In odio quam, commodo sit amet libero ac, sollicitudin consectetur lorem. Pellentesque mattis ante ac odio laoreet pretium. Mauris convallis scelerisque ultrices. Curabitur ac lacinia dui, fermentum tristique magna. Suspendisse id aliquet quam. Proin tristique est dolor, quis vestibulum urna hendrerit at. Pellentesque quis massa eget enim tincidunt porttitor. Aenean hendrerit fringilla ultrices. Aliquam dolor risus, consequat ac porttitor nec, luctus eu nunc. Morbi mattis augue eget elementum cursus.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Cras scelerisque quis tortor in luctus. Fusce tristique vel quam a malesuada. Donec vel lacus eu mauris luctus ullamcorper et posuere leo. Pellentesque lacinia ipsum neque, ac dictum nisi porttitor ac. Cras aliquet diam ac massa condimentum, ut congue ipsum tincidunt. Quisque malesuada fermentum elit maximus porta. Vestibulum auctor lobortis eleifend. Cras nisl quam, placerat vitae nibh sed, consequat sollicitudin eros. Proin posuere purus vel pharetra volutpat. Vestibulum sagittis purus quis tempor rutrum. Maecenas efficitur ac tellus vel dapibus. Mauris lobortis ligula ac ante laoreet, nec euismod quam luctus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc nec ipsum et quam maximus tristique vitae eu massa. Morbi at nisl ornare, elementum libero ut, suscipit eros. Aliquam accumsan est eros, quis condimentum metus tincidunt non.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>202</wp:post_id>
+		<wp:post_date><![CDATA[2019-01-10 19:44:46]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2019-01-10 21:44:46]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[teste-de-post-2]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="sem-categoria"><![CDATA[Sem categoria]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
