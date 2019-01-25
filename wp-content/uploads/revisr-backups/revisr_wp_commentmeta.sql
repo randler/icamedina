@@ -20,12 +20,12 @@ CREATE TABLE `wp_commentmeta` (
   PRIMARY KEY (`meta_id`),
   KEY `comment_id` (`comment_id`),
   KEY `meta_key` (`meta_key`(191))
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wp_commentmeta` WRITE;
 /*!40000 ALTER TABLE `wp_commentmeta` DISABLE KEYS */;
-INSERT INTO `wp_commentmeta` VALUES (1,2,'rating','5'),(2,2,'verified','0');
+INSERT INTO `wp_commentmeta` VALUES (1,2,'rating','5'),(2,2,'verified','0'),(3,3,'akismet_error','1546971377'),(4,3,'akismet_history','a:4:{s:4:\"time\";d:1546971377.558756;s:5:\"event\";s:11:\"check-error\";s:4:\"user\";s:7:\"Randler\";s:4:\"meta\";a:1:{s:8:\"response\";s:7:\"invalid\";}}'),(5,3,'akismet_as_submitted','a:13:{s:14:\"comment_author\";s:7:\"Randler\";s:20:\"comment_author_email\";s:19:\"randlersi@gmail.com\";s:18:\"comment_author_url\";s:0:\"\";s:15:\"comment_content\";s:8:\"lçdfdsf\";s:12:\"comment_type\";s:6:\"review\";s:7:\"user_ID\";i:3;s:7:\"user_id\";i:3;s:7:\"user_ip\";s:9:\"127.0.0.1\";s:10:\"user_agent\";s:104:\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36\";s:4:\"blog\";s:26:\"http://icamedina/wordpress\";s:9:\"blog_lang\";s:5:\"pt_BR\";s:12:\"blog_charset\";s:5:\"UTF-8\";s:9:\"permalink\";s:52:\"http://icamedina/wordpress/index.php/product/arte-1/\";}'),(6,3,'rating','5'),(7,3,'akismet_delayed_moderation_email','1'),(8,3,'verified','0'),(9,4,'akismet_error','1546972223'),(10,4,'akismet_history','a:4:{s:4:\"time\";d:1546972223.677501;s:5:\"event\";s:11:\"check-error\";s:4:\"user\";s:6:\"medina\";s:4:\"meta\";a:1:{s:8:\"response\";s:7:\"invalid\";}}'),(11,4,'akismet_as_submitted','a:13:{s:14:\"comment_author\";s:6:\"medina\";s:20:\"comment_author_email\";s:28:\"icamedinaproducoes@gmail.com\";s:18:\"comment_author_url\";s:0:\"\";s:15:\"comment_content\";s:5:\"jhghj\";s:12:\"comment_type\";s:6:\"review\";s:7:\"user_ID\";i:1;s:7:\"user_id\";i:1;s:7:\"user_ip\";s:9:\"127.0.0.1\";s:10:\"user_agent\";s:104:\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36\";s:4:\"blog\";s:26:\"http://icamedina/wordpress\";s:9:\"blog_lang\";s:5:\"pt_BR\";s:12:\"blog_charset\";s:5:\"UTF-8\";s:9:\"permalink\";s:52:\"http://icamedina/wordpress/index.php/product/arte-3/\";}'),(12,4,'rating','3'),(13,4,'verified','0');
 /*!40000 ALTER TABLE `wp_commentmeta` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

@@ -581,6 +581,10 @@ function twentyseventeen_post_thumbnail_sizes_attr( $attr, $attachment, $size ) 
 }
 add_filter( 'wp_get_attachment_image_attributes', 'twentyseventeen_post_thumbnail_sizes_attr', 10, 3 );
 
+add_filter('excerpt_length', 'custom_excerpt_length');
+function custom_excerpt_length($length) {
+	return 75; //Nova quantidade de caracteres do excerpt
+}
 /**
  * Use front-page.php when Front page displays is set to a static page.
  *

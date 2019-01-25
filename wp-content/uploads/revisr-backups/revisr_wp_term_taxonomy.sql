@@ -27,7 +27,7 @@ CREATE TABLE `wp_term_taxonomy` (
 
 LOCK TABLES `wp_term_taxonomy` WRITE;
 /*!40000 ALTER TABLE `wp_term_taxonomy` DISABLE KEYS */;
-INSERT INTO `wp_term_taxonomy` VALUES (1,1,'category','',0,1),(2,2,'nav_menu','',0,10),(3,3,'nav_menu','',0,4),(4,4,'product_type','',0,1),(5,5,'product_type','',0,0),(6,6,'product_type','',0,0),(7,7,'product_type','',0,0),(8,8,'product_visibility','',0,0),(9,9,'product_visibility','',0,0),(10,10,'product_visibility','',0,0),(11,11,'product_visibility','',0,0),(12,12,'product_visibility','',0,0),(13,13,'product_visibility','',0,0),(14,14,'product_visibility','',0,0),(15,15,'product_visibility','',0,0),(16,16,'product_visibility','',0,1),(17,17,'product_cat','',0,0),(18,18,'product_cat','',0,1);
+INSERT INTO `wp_term_taxonomy` VALUES (1,1,'category','',0,1),(2,2,'nav_menu','',0,11),(3,3,'nav_menu','',0,4),(4,4,'product_type','',0,3),(5,5,'product_type','',0,0),(6,6,'product_type','',0,0),(7,7,'product_type','',0,0),(8,8,'product_visibility','',0,0),(9,9,'product_visibility','',0,0),(10,10,'product_visibility','',0,0),(11,11,'product_visibility','',0,0),(12,12,'product_visibility','',0,0),(13,13,'product_visibility','',0,0),(14,14,'product_visibility','',0,1),(15,15,'product_visibility','',0,0),(16,16,'product_visibility','',0,1),(17,17,'product_cat','',0,1),(18,18,'product_cat','',0,2);
 /*!40000 ALTER TABLE `wp_term_taxonomy` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

@@ -35,12 +35,12 @@ CREATE TABLE `wp_comments` (
   KEY `comment_parent` (`comment_parent`),
   KEY `comment_author_email` (`comment_author_email`(10)),
   KEY `woo_idx_comment_type` (`comment_type`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wp_comments` WRITE;
 /*!40000 ALTER TABLE `wp_comments` DISABLE KEYS */;
-INSERT INTO `wp_comments` VALUES (1,1,'Um comentarista do WordPress','wapuu@wordpress.example','https://wordpress.org/','','2018-12-24 13:54:36','2018-12-24 15:54:36','Olá, isso é um comentário.\nPara começar a moderar, editar e deletar comentários, visite a tela de Comentários no painel.\nAvatares de comentaristas vêm a partir do <a href=\"https://gravatar.com\">Gravatar</a>.',0,'1','','',0,0),(2,40,'medina','icamedinaproducoes@gmail.com','','127.0.0.1','2018-12-26 13:31:50','2018-12-26 15:31:50','teste',0,'1','Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36','review',0,1);
+INSERT INTO `wp_comments` VALUES (1,1,'Um comentarista do WordPress','wapuu@wordpress.example','https://wordpress.org/','','2018-12-24 13:54:36','2018-12-24 15:54:36','Olá, isso é um comentário.\nPara começar a moderar, editar e deletar comentários, visite a tela de Comentários no painel.\nAvatares de comentaristas vêm a partir do <a href=\"https://gravatar.com\">Gravatar</a>.',0,'1','','',0,0),(2,40,'medina','icamedinaproducoes@gmail.com','','127.0.0.1','2018-12-26 13:31:50','2018-12-26 15:31:50','teste',0,'1','Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36','review',0,1),(3,40,'Randler','randlersi@gmail.com','','127.0.0.1','2019-01-08 16:16:17','2019-01-08 18:16:17','lçdfdsf',0,'0','Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36','review',0,3),(4,137,'medina','icamedinaproducoes@gmail.com','','127.0.0.1','2019-01-08 16:30:23','2019-01-08 18:30:23','jhghj',0,'1','Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36','review',0,1);
 /*!40000 ALTER TABLE `wp_comments` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

@@ -25,7 +25,7 @@ CREATE TABLE `wp_termmeta` (
 
 LOCK TABLES `wp_termmeta` WRITE;
 /*!40000 ALTER TABLE `wp_termmeta` DISABLE KEYS */;
-INSERT INTO `wp_termmeta` VALUES (1,17,'product_count_product_cat','0'),(2,18,'order','0'),(3,18,'product_count_product_cat','1');
+INSERT INTO `wp_termmeta` VALUES (1,17,'product_count_product_cat','1'),(2,18,'order','0'),(3,18,'product_count_product_cat','2');
 /*!40000 ALTER TABLE `wp_termmeta` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

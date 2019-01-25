@@ -25,7 +25,7 @@ CREATE TABLE `wp_wpum_registration_formmeta` (
 
 LOCK TABLES `wp_wpum_registration_formmeta` WRITE;
 /*!40000 ALTER TABLE `wp_wpum_registration_formmeta` DISABLE KEYS */;
-INSERT INTO `wp_wpum_registration_formmeta` VALUES (1,1,'default','1'),(2,1,'role','subscriber'),(3,1,'fields','a:3:{i:0;i:1;i:1;i:2;i:2;i:3;}');
+INSERT INTO `wp_wpum_registration_formmeta` VALUES (1,1,'default','1'),(2,1,'role','customer'),(3,1,'fields','a:3:{i:0;i:1;i:1;i:2;i:2;i:3;}');
 /*!40000 ALTER TABLE `wp_wpum_registration_formmeta` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

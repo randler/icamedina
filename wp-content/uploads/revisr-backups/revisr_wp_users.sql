@@ -27,12 +27,12 @@ CREATE TABLE `wp_users` (
   KEY `user_login_key` (`user_login`),
   KEY `user_nicename` (`user_nicename`),
   KEY `user_email` (`user_email`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wp_users` WRITE;
 /*!40000 ALTER TABLE `wp_users` DISABLE KEYS */;
-INSERT INTO `wp_users` VALUES (1,'medina','$P$BoVOZiA1S2FwgVeSnKHcZ0ARfpEFqe1','medina','icamedinaproducoes@gmail.com','','2018-12-24 15:54:35','',0,'medina');
+INSERT INTO `wp_users` VALUES (1,'medina','$P$BoVOZiA1S2FwgVeSnKHcZ0ARfpEFqe1','medina','icamedinaproducoes@gmail.com','','2018-12-24 15:54:35','',0,'medina'),(3,'Randler','$P$BDtMbLgm4Qs8LvBX7Fk5tQylXtDgi.1','randler','randlersi@gmail.com','','2018-12-31 15:31:58','',0,'Randler');
 /*!40000 ALTER TABLE `wp_users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
