@@ -266,7 +266,7 @@ class Login_Logout_Register_Menu_Public {
 			$temp = explode( '|', $content );
 			$content = is_user_logged_in() ? $temp[1] : $temp[0];
 		} else {
-			$content = is_user_logged_in() ? __( 'Logout', 'login-logout-register-menu' ) : __( 'Log In', 'login-logout-register-menu' );
+			$content = is_user_logged_in() ? __( 'Sair', 'login-logout-register-menu' ) : __( 'Entrar', 'login-logout-register-menu' );
 		}
 
 		return '<a href="' . esc_url( $href ) . '"' . $edit_tag . '>' . $content . '</a>';
@@ -295,7 +295,7 @@ class Login_Logout_Register_Menu_Public {
 		$edit_tag = esc_html( strip_tags( $atts['edit_tag'] ) );
 
 		if ( $content == '' ) {
-			$content = __( 'Logout', 'login-logout-register-menu' );
+			$content = __( 'Sair', 'login-logout-register-menu' );
 		}
 
 		return '<a href="' . esc_url( $href ) . '"' . $edit_tag . '>' . $content . '</a>';
@@ -318,7 +318,7 @@ class Login_Logout_Register_Menu_Public {
 		}
 
 		if ( $content == '' ) {
-			$content = __( 'Register', 'login-logout-register-menu' );
+			$content = __( 'Cadastre-se', 'login-logout-register-menu' );
 		}
 		$link = '<a href="' . $href. '">' . $content . '</a>';
 		return $link;
@@ -346,7 +346,7 @@ class Login_Logout_Register_Menu_Public {
 			$url = get_edit_user_link();
 		}
 
-		$content = $content != '' ? $content : __( 'Profile', 'login-logout-register-menu' );
+		$content = $content != '' ? $content : __( 'Perfil', 'login-logout-register-menu' );
 		$link = '<a href="' . $url . '">' . $content . '</a>';
 		return $link;
 	}

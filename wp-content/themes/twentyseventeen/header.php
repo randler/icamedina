@@ -19,6 +19,58 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 
+<?php if ( is_page( 'obras-loja' ) ) { ?>
+
+<style type="text/css">
+
+@media screen and (min-width: 1440px) {
+	.woof_sid_auto_shortcode {
+		width: 24% !important;
+		position: absolute;
+		left: 10px;
+		top: 200px;
+	}
+	.wrap {
+		max-width: 1000px;
+		padding-left: 0px !important;
+		padding-right: 0px;
+		margin-right: 100px;
+	}
+}
+
+@media screen and (min-width: 1340px) {
+	.woof_sid_auto_shortcode {
+		width: 24% !important;
+		position: absolute;
+		left: 10px;
+		top: 200px;
+	}
+	.wrap {
+		max-width: 1000px;
+		padding-left: 3em;
+		padding-right: 0px;
+		margin-right: 50px;
+	}
+}
+
+@media screen and (min-width: 1260px) {
+	.woof_sid_auto_shortcode {
+		width: 19%;
+		position: absolute;
+		left: 10px;
+		top: 200px;
+	}
+	.wrap {
+		max-width: 1000px;
+		padding-left: 3em;
+		padding-right: 0px;
+		margin-right: 50px;
+	}
+}
+
+</style>
+
+<?php } ?>
 <?php wp_head(); ?>
 </head>
 
